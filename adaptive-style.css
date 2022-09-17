@@ -1,0 +1,122 @@
+@media all and (max-width: 1200px) {
+  .navbar__list {
+    width: 50%;
+  }
+  .features__item:nth-child(4) > img {
+    width: 300px;
+  }
+  .features__item:nth-child(6) > img {
+    height: 180px;
+    width: 300px;
+  }
+  .footer__list {
+    width: 50%;
+  }
+}
+@media all and (max-width: 992px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 0 10px 0 0;
+  }
+  .navbar__list {
+    display: none;
+  }
+  .navbar__btn_burger {
+    display: block;
+  }
+  .burger-menu__list {
+    padding-left: 0;
+  }
+  .header__top > h1 {
+    font-size: 38px;
+  }
+  .portfolio__block > h4 {
+    width: 60%;
+  }
+  .git__link {
+    width: 20%;
+    height: 50px;
+  }
+  .footer__list {
+    width: 60%;
+  }
+  .content__right_item > img {
+    width: 50%;
+  }
+}
+@media all and (max-width: 768px) {
+  .features__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .features__item {
+    width: 70%;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .content__left {
+    width: 100%;
+  }
+  .content__right {
+    width: 100%;
+  }
+  .content__right_item {
+    width: 40%;
+  }
+  .content__bottom > h4 {
+    font-size: 40px;
+  }
+  .content__bottom_text {
+    font-size: 16px;
+    line-height: 1;
+  }
+  .skill__text {
+    font-size: 16px;
+    line-height: 1;
+  }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .portfolio__block {
+    flex-direction: column;
+  }
+  .git__link {
+    width: 40%;
+    font-size: 28px;
+  }
+  .portfolio__block > h4 {
+    width: 80%;
+    font-size: 30px;
+  }
+}
+@media all and (max-width: 576px) {
+  .header__top > h1 {
+    font-size: 28px;
+  }
+  .header__top > p {
+    font-size: 28px;
+  }
+}
+@media all and (max-width: 320px) {
+  .content__right_list {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+  }
+  .features__item:nth-child(4) > img {
+    width: 200px;
+  }
+  .features__item:nth-child(6) > img {
+    width: 200px;
+  }
+  .footer__list {
+    width: 100%;
+  }
+}
